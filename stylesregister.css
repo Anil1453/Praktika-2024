@@ -1,0 +1,104 @@
+/* register.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.video-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.register-container {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* Opaklık arka planı */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.register-container h1 {
+    margin-bottom: 20px;
+}
+
+.register-container form {
+    width: 300px;
+}
+
+.register-container .form-label {
+    color: white;
+}
+
+.register-container .form-text {
+    color: #ccc;
+}
+
+.register-container .btn-primary {
+    background-color: #3498db;
+    border: none;
+}
+
+.register-container .btn-primary:hover {
+    background-color: #2980b9;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(51, 51, 51, 0.8);
+    padding: 1rem;
+    z-index: 2;
+}
+
+.navbar button {
+    background-color: #0a8b94;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 15px;
+}
+
+.navbar button:hover {
+    background-color: #07647c;
+}
+
+.auth-links {
+    display: flex;
+    gap: 10px;
+}
+
+.auth-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    border-radius: 5px;
+}
+
+.auth-links a:hover {
+    background-color: #2b792f;
+}
