@@ -7,7 +7,7 @@ body {
     position: relative;
     height: 100vh;
     overflow: hidden;
-     
+
 }
 
 /* Adding a color overlay with reduced opacity */
@@ -21,7 +21,7 @@ body::before {
     background-color: rgba(0, 0, 0, 0.5);
     /* Adjust the opacity here */
     z-index: r1;
-    
+
 }
 
 /* Ensuring all content is above the overlay */
@@ -51,9 +51,9 @@ body::before {
 }
 
 .content {
-    position: relative; 
-    top: -20px; 
-    left: 50px; 
+    position: relative;
+    top: -20px;
+    left: 50px;
 }
 
 .nav-links {
@@ -111,7 +111,7 @@ body::before {
 .left-content img,
 .right-content img {
     border-radius: 10px;
-    width: 300px; 
+    width: 300px;
     height: auto;
     transition: transform 0.3s ease;
 }
@@ -128,19 +128,21 @@ body::before {
     color: white;
     margin-top: 10px;
 }
-video{
+
+video {
     width: 100vw;
     height: 100vh;
     object-fit: cover;
     object-position: center;
     object-fit: cover;
 }
-.modal{
-    
-    position:absolute;
+
+.modal {
+
+    position: absolute;
     width: 100vw;
     height: 100vh;
-    top:0;
+    top: 0;
     padding: 0.5rem;
     display: flex;
     justify-content: center;
@@ -154,26 +156,36 @@ video{
 h1 {
     font-family: 'Arial', sans-serif;
     color: #333;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Gölgelendirme efekti */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    /* Gölgelendirme efekti */
 }
 
 p {
     font-family: 'Georgia', serif;
     color: #666;
-    line-height: 1.6; /* Satır yüksekliği ayarı */
+    line-height: 1.6;
+    /* Satır yüksekliği ayarı */
 }
+
 /* Arka plan ve gölgelendirme efektleri */
 div {
-  
-    border-radius: 10px; /* Köşe yuvarlama */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Kutu gölgesi */
+
+    border-radius: 10px;
+    /* Köşe yuvarlama */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Kutu gölgesi */
 }
+
 /* Kenarlık ve çerçeve efektleri */
 blockquote {
-    border-left: 5px solid #ccc; /* Sol kenarlık */
-    padding-left: 10px; /* Sol iç boşluk */
-    margin-left: 0; /* Sol boşluk */
+    border-left: 5px solid #ccc;
+    /* Sol kenarlık */
+    padding-left: 10px;
+    /* Sol iç boşluk */
+    margin-left: 0;
+    /* Sol boşluk */
 }
+
 /* Geçiş efektleri */
 button {
     background-color: #3498db;
@@ -182,11 +194,14 @@ button {
     border: none;
     border-radius: 20px;
     cursor: pointer;
-    transition: background-color 0.3s ease; /* Arka plan rengi değişimi */
+    transition: background-color 0.3s ease;
+    /* Arka plan rengi değişimi */
 
 }
 
 button:hover {
-    background-color: #2980b9;
+    background-color: #1a608f;
 
 }
+
+
